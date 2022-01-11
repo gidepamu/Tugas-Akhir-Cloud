@@ -14,5 +14,5 @@ services:
       - JOOMLA_DB_NAME=$MYSQL_DB_NAME
     volumes:
       - type: bind
-        source: /home/ec2-user/efs
+        source: /mnt/efs
         target: /var/www/html
